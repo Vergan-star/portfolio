@@ -12,20 +12,25 @@ header{width:100%; background-image: url("img/bg-header.jpg");height:97px;positi
 footer{width:100%;}
 .active{background-color: #FF0000; border-radius: 4px; padding:0 15px 0 15px; margin:0px  10px 0px 10px; color:#fff;}
 /* CIRCLE ---------------------- */
-.circle-text {width:70%; margin:1em 0 1em 0; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
-.circle-one-color{background-color:#ED1233;  }
+.circle-text {width:60%; margin:0.8em 0 0.8em 0; -moz-border-radius: 80%; -webkit-border-radius: 80%; border-radius: 80%; }
+.circle-one-color{background-color:#ED1233; }
 .circle-two-color{background-color:#008080;}
 .circle-three-color{background-color:#00A6A6;}
 .circle-four-color{background-color:#37CF7F;}
 .circle-text:after {content: ""; display: block; width: 100%; height:0; padding-bottom: 100%; }
-.circle-text div {float:left; width:100%;  line-height:1em;  text-align:center; color:white; font-family: 'Roboto'; font-style: normal; font-weight: 300; font-size:18px; }
-.bar{  border-radius: 6px;  height: 45px;  line-height: 45px;  text-align: left; color:#ffffff; padding-left:15px; 	font-family: 'Roboto'; font-style: normal; font-weight: 300; 
+.circle-text div {float:left; width:100%;  line-height:1em;  text-align:center; color:white; font-family: 'Roboto'; font-style: normal; font-weight: 300; font-size:16px; }
+.bar{  border-radius: 6px;  height: 45px;  line-height: 12px;  text-align: left; color:#ffffff; padding-left:15px; 	font-family: 'Roboto'; font-style: normal; font-weight: 300; 
 	margin:15px;}	
 .bar-one{background-color: #ED1233; border-bottom:4px #FF7F00 solid; }	
 .bar-two{background-color:#008080; border-bottom:4px #00A6A6 solid;}
 .bar-three{background-color:#00A6A6; border-bottom:4px #00C6C6 solid;}
 .bar-four{background-color:#37CF7F; border-bottom:4px #5ED998 solid;}
+.percentual{ background-color: #FF7F00; border-radius: 6px; float: right; height: 35px; margin-top: -50px; right: 1em; text-align: center; width: 60px; padding-top:10px;}
+.seta-baixo { border-left: 10px solid rgba(0, 0, 0, 0); border-right: 10px solid rgba(0, 0, 0, 0); border-top: 10px solid #FF7F00; float: right; height: 0; margin-right: 1.4em;
+    margin-top: -15px;
+    width: 0; }
 .top25{padding:25% 0 5% 0;}
+.top10{padding-top:12px; display:block;}
 .width90{width:90%;}
 .width80{width:80%;}
 .width60{width:60%;}
@@ -76,11 +81,11 @@ p { font-family: inherit; font-weight: normal; font-size: 14px; line-height: 1.6
 p.lead { font-size: 17.5px; line-height: 1.6; margin-bottom: 17px; }
 
 aside p { font-size: 13px; line-height: 1.35; font-style: italic; }
-h2, h3, h4{font-family: 'Roboto'; font-style: normal; font-weight: 100;  padding: 4px 0 10px 55px;}
+h2, h3, h4{font-family: 'Roboto'; font-style: normal; font-weight: 100;  padding: 0px 0 10px 25px;}
 p{padding-left:15px; color:#666;}
 p img {float:left; border-radius:800px; margin:10px; border:12px solid #E2E2E2;}
-.blue-title{background:url("img/bullet-about.png") no-repeat; width:41px; display:block;color:#75B1BB; margin:15px;}
-.blue-light-title{background:url("img/bullet-design.png") no-repeat; width:41px; display:block;color:#82C0FF; margin:15px;}
+.blue-title{background:url("img/bg-bullet.png") no-repeat; height:72px; display:block;color:#fff; margin:5px;}
+.blue-light-title{background:url("img/skills-design.png") no-repeat; height:72px; display:block;color:#fff; margin:5px;}
 .green-title{background:url("img/bullet-speciality.png") no-repeat; width:41px; display:block;color:#57A79C; margin:15px;}
 .green-more-title{background:url("img/bullet-expertise.png") no-repeat;  display:block;color:#57A79C; margin:15px;}
 .center{text-align:center;}
@@ -89,11 +94,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; col
 
 h1 { font-size: 44px; }
 
-h2 { font-size: 30px; }
-
-h3 { font-size: 30px; }
-
-h4 { font-size: 30px; }
+h2, h3, h4 { font-size: 23px; padding-top:15px;  }
 
 h5 { font-size: 17px; }
 
