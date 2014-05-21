@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
-
   <title>Portfolio Alexandre Santos</title>
-
   <!-- Included CSS Files -->
   <link rel="stylesheet" href="templates.css">
   <link rel="stylesheet" href="css.css">
-
-</head>
-
+ <!-- <script type="text/javascript" src="helium.js" onload="helium.init()" async></script>-->
 </head>
 <body>
 <header>
@@ -104,79 +98,58 @@
     </div>
   </div>
   <div class="row" >
-       <div class="row top10">
-			<div class="bar bar-one top10 width90">
-			PHOTOSHOP
-			<div class="percentual">
-			90%
-			</div>
-			<div class="seta-baixo">
-			
-			</div>
-			</div>
-	   </div>
-	   <div class="row top10">
-			<div class="bar bar-two top10 width60">
-			JAVASCRIPT
-			<div class="percentual">
-			60%
-			</div>
-			<div class="seta-baixo">
-			
-			</div>
-			</div>
-	   </div>
-	   <div class="row top10">
-			<div class="bar bar-three top10 width90">
-			RESPONSIVE DESIGN
-			<div class="percentual">
-			90%
-			</div>
-			<div class="seta-baixo">
-			
-			</div>
-			</div>
-	   </div>
-	   <div class="row top10">
-			<div class="bar bar-four top10 width80">
-			WORDPRESS
-			<div class="percentual">
-			80%
-			</div>
-			<div class="seta-baixo">
-			
-			</div>
-			</div>
-       <div class="row top10">
-      <div class="bar bar-one top10 width90">
-      FIREWORKS
-      <div class="percentual">
-      90%
-      </div>
-      <div class="seta-baixo">
+      <ul class="bars">
+            <li class="bar bar-one top10 width90">PHOTOSHOP
+                <span class="arrow_box">90%</span> 
+             </li>
+            <li class="bar bar-two top10 width60">JAVASCRIPT
+                 <span class="arrow_box">60%</span> 
+            </li>
+            <li class="bar bar-three top10 width90">RESPONSIVE DESIGN
+                  <span class="arrow_box">90%</span> 
+            </li>
+            <li class="bar bar-four top10 width80">WORDPRESS
+                  <span class="arrow_box">80%</span> 
+            </li>
+            <li class="bar bar-one top10 width90">FIREWORKS
+                  <span class="arrow_box">90%</span> 
+            </li>
+            <li class="bar bar-two top10 width90">HTML
+                  <span class="arrow_box">90%</span> 
+            </li>
+            <li class="bar bar-three top10 width60">JQUERY MOBILE
+                  <span class="arrow_box">60%</span> 
+            </li>
+             <li class="bar bar-four top10 width40">JOOMLA
+                  <span class="arrow_box">40%</span> 
+            </li>
+            <li class="bar bar-one top10 width80">ILUSTRATOR
+                <span class="arrow_box">80%</span> 
+             </li>
+             <li class="bar bar-two top10 width60">GITHUB
+                 <span class="arrow_box">60%</span> 
+            </li>
+             <li class="bar bar-one top10 width80">FLASH
+                <span class="arrow_box">80%</span> 
+             </li>
+            <li class="bar bar-two top10 width60">JQUERY
+                 <span class="arrow_box">80%</span> 
+            </li>
+            <li class="bar bar-one top10 width90">UX/DESIGNER
+                <span class="arrow_box">90%</span> 
+             </li>
+            <li class="bar bar-two top10 width80">HTML 5
+                 <span class="arrow_box">80%</span> 
+            </li>
+      </ul>
       
-      </div>
-      </div>
-	   </div>
-      <div class="row top10">
-      <div class="bar bar-two top10 width80">
-        HTML5
-      <div class="percentual">
-      80%
-      </div>
-      <div class="seta-baixo">
-      
-      </div>
-      </div>
-     </div>
-  </div>
-
+ </div>
 
     <!-- Footer -->
 
   <footer >
   <div >
-    <div class="twelve columns" ><hr />
+    <div class="twelve columns back-footer" >
       <div class="row">
 
         <div class="six columns">
@@ -184,14 +157,12 @@
         </div>
 
         <div class="six columns">
-		 <!-- Thumbnails 
-          <ul class="link-list right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
+            <ul class="link-list right">
+                <li class='sprite twitter'><a href="#">Link 1</a></li>
+                <li class='sprite skype'><a href="#">Link 2</a></li>
+                <li class='sprite linkedin'><a href="#">Link 3</a></li>
           </ul>
-		  -->
+		 
         </div>
 
       </div>
@@ -202,10 +173,6 @@
     <!-- End Footer -->
   <!-- Included JS Files -->
   <script src="templates.js"></script>
-  <script type="text/javascript">
-    $(window).load(function() {
-      $('#featured').orbit({ fluid: '2x1' });
-    });
-  </script>
+ 
 </body>
 </html>

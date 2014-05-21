@@ -20,7 +20,7 @@ footer{width:100%;}
 .circle-text:after {content: ""; display: block; width: 100%; height:0; padding-bottom: 100%; }
 .circle-text div {float:left; width:100%;  line-height:1em;  text-align:center; color:white; font-family: 'Roboto'; font-style: normal; font-weight: 300; font-size:16px; }
 .bar{  border-radius: 6px;  height: 45px;  line-height: 12px;  text-align: left; color:#ffffff; padding-left:15px; 	font-family: 'Roboto'; font-style: normal; font-weight: 300; 
-	margin:15px;}	
+	margin:40px 0px 0px 15px;}	
 .bar-one{background-color: #ED1233; border-bottom:4px #FF7F00 solid; }	
 .bar-two{background-color:#008080; border-bottom:4px #00A6A6 solid;}
 .bar-three{background-color:#00A6A6; border-bottom:4px #00C6C6 solid;}
@@ -30,11 +30,22 @@ footer{width:100%;}
     margin-top: -15px;
     width: 0; }
 .top25{padding:25% 0 5% 0;}
-.top10{padding-top:12px; display:block;}
+.top10{padding-top:14px; display:block;}
+.bars {padding:15px;}
 .width90{width:90%;}
 .width80{width:80%;}
 .width60{width:60%;}
 .width40{width:40%;}
+.arrow_box { position: relative; background: #ff7f00;  float:right; padding:12px; margin-top: -50px; -webkit-border-radius: 6px;
+-moz-border-radius: 6px; border-radius: 6px; } 
+.arrow_box:after, .arrow_box:before { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
+.arrow_box:after {  border-width: 20px; margin-left: -20px; } .arrow_box:before { border-color: rgba(194, 225, 245, 0); border-top-color: #ff7f00; border-width: 8px; margin-left: -9px; }
+.back-footer {background-color: #e1e3e4; border: 1px solid #d8d7d4; }
+.back-footer p {padding: 20px 0 10px 20px; font-size:13px;}
+.sprite { background: url('img/sprite.png') no-repeat top left; text-indent:-99999em; margin:10px; } 
+.sprite.twitter { background-position: 0px 0px; width: 34px; height: 34px;  } 
+.sprite.skype { background-position: -38px 0px; width: 26px; height: 34px;  } 
+.sprite.linkedin { background-position: -68px 0px; width: 30px; height: 34px;  } 
 /* Links ---------------------- */
 a img { border: none; }
 
@@ -960,7 +971,7 @@ ul.breadcrumbs li.unavailable:hover a, ul.breadcrumbs li.unavailable a:focus { t
 
 /* Inline Link List */
 ul.inline-list, ul.link-list { margin: 0 0 17px -22px; padding: 0; list-style: none; overflow: hidden; }
-ul.inline-list > li, ul.link-list > li { list-style: none; float: left; margin-left: 22px; display: block; }
+ul.inline-list > li, ul.link-list > li { list-style: none; float: left;  display: block; }
 ul.inline-list > li > *, ul.link-list > li > * { display: block; }
 
 /* Keytroke Characters ---------------------- */
